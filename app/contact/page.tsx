@@ -58,16 +58,29 @@ export default function Contact() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
               {/* Address */}
-              <div className="bg-card border border-border rounded-lg p-8">
+              <div className="bg-card border border-border rounded-lg p-8 space-y-4">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="font-bold text-lg">Location</h3>
+                  <h3 className="font-bold text-lg">Registered Address</h3>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   No 23 Dozie Way, Off Ikot Ekpene Road, Umuahia, Abia State,
                   Nigeria
+                </p>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-primary" />
+                  </div>
+                  <h3 className="font-bold text-lg">Operational Address</h3>
+                </div>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Sir John Nwadighioha Evangelical and Welfare Foundation’s
+                  building,
+                  <br />
+                  K/m 112 PH/Enugu Express way Nsukwe Ubakala Umuahia Abia
+                  State, Nigeria.
                 </p>
               </div>
 
